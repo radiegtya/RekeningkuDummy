@@ -1,0 +1,45 @@
+{
+  "name": "Rekeningku",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "autobahnjs": "^0.4.9",
+    "bufferutil": "^3.0.3",
+    "cookie": "^0.3.1",
+    "crypto-js": "^3.1.9-1",
+    "events": "^2.0.0",
+    "i": "^0.3.6",
+    "msgpack-lite": "^0.1.26",
+    "native-base": "^2.4.1",
+    "net": "^1.0.2",
+    "npm": "^5.8.0",
+    "querystring": "^0.2.0",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-cookie": "^0.2.0",
+    "react-native-cross-platform-icons": "^1.0.5",
+    "react-native-elements": "^0.19.0",
+    "react-native-simple-tab": "^1.0.8",
+    "react-native-simple-table": "^0.0.3",
+    "react-native-splash-screen": "^3.0.6",
+    "react-native-vector-icons": "^4.5.0",
+    "react-navigation": "^1.5.8",
+    "react-number-format": "^3.3.1",
+    "utf-8-validate": "^4.0.0",
+    "wamp.js": "^0.2.5",
+    "wamp.js2": "^0.2.5"
+  },
+  "devDependencies": {
+    "babel-jest": "23.0.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.0.1",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
